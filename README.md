@@ -1,4 +1,4 @@
-WAlMART sales analysis using python
+WALMART sales analysis using python
 I used the data from kaggle and analyze the data using juypter notebook.
 # Walmart sales Analysis
 import pandas as pd
