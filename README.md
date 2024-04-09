@@ -1,11 +1,18 @@
-WALMART sales analysis using python
+WALMART sales analysis using python.
+
 I used the data from kaggle and analyze the data using juypter notebook.
+
 # Walmart sales Analysis
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 data=pd.read_csv('WalmartSalesData.csv')
+
 data.head(5)
 columns_to_drop = ['Tax 5%','cogs']
 data.drop(columns_to_drop,axis=1,inplace=True)
